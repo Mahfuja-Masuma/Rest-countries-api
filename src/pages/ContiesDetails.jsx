@@ -9,7 +9,7 @@ function ContiesDetails() {
   return (
     <main className="container mx-auto  text-center py-[100px]">
       <div className="w-[30%] mb-10 border border-r-blue-700 p-4 rounded-md items-center ml-[400px]">
-        <h2 className="text-lg font-bold">Offical Name: <span className="font-normal">{name.common}</span></h2>
+        <h2 className="text-lg font-bold">Common Name: <span className="font-normal">{name.common}</span></h2>
         <h2 className="text-lg font-bold">Offical Name: <span className="font-normal">{name.official}</span></h2>
         <h3 className="text-lg font-bold">Capital: <span className="font-normal">{capital}</span></h3>
         <h4 className="text-lg font-bold mb-4">Population: <span className="font-normal">{population}</span></h4>
